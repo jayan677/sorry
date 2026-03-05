@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry Aarya ❤️</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.container{
+  background: rgba(0,0,0,0.4);
+  padding:40px;
+  border-radius:20px;
+  max-width:500px;
+}
+
+button{
+  margin-top:20px;
+  padding:12px 25px;
+  border:none;
+  border-radius:25px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.yes{
+  background:#4CAF50;
+}
+
+.no{
+  background:#ff4d4d;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>I'm Really Sorry Aarya ❤️</h1>
+
+<p>
+Aarya my baby I know I made a mistake and I truly regret it. You mean a lot to me and I hate hurting you. Seeing you upset because of me makes me feel really bad. You are very important in my life and I never wanted to make you sad. I wish I could go back and change what happened but I cannot change the past. All I can do now is say sorry and mean it from my heart. I miss talking with you and laughing with you and things feel empty when we are not okay. You bring happiness into my life and I do not want to lose that. I know sorry cannot fix everything immediately but my apology is real and I truly want to do better. Please forgive me if you can and give me one more chance to make things right because you really mean a lot to me.
+
+</p>
+
+<button class="yes" onclick="forgive()">Forgive Me?</button>
+<button class="no" onclick="moveButton(this)">No 😢</button>
+
+</div>
+
+<script>
+function forgive(){
+  alert("Thank you for forgiving me ❤️");
+}
+
+function moveButton(btn){
+  btn.style.position="absolute";
+  btn.style.top=Math.random()*80+"%";
+  btn.style.left=Math.random()*80+"%";
+}
+</script>
+
+</body>
+</html>
+```
